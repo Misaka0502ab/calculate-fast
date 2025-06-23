@@ -35,15 +35,20 @@
         }
     </style>
 <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <!-- 主要Favicon（PNG格式，推荐现代浏览器） -->
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+    
+    <!-- 兼容旧版浏览器的ICO格式 -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- iOS设备主屏幕图标 -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>绿色网站，绿色发财 </title>
-     <head>
+    <title>绿色网站，绿色发财 </title>
+</head>
     <!-- 其他标签保持不变 -->
     
     <!-- 路径指向images文件夹 -->
