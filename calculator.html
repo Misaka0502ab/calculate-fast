@@ -10,5 +10,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>绿色网站，绿色发财 </title>
 </head>
+<body> 
+    <script src="java.js">
+   
+    </script>
 
+    <h2 style="text-align: center;">账号</h2>
+    <input type="text">
+    <p>
+
+    </p>
+    <h3 style="text-align: center;">密码</h3>
+    <input type="password" id="passwordInput">
+    
+   <div id="myModal" class="modal">
+        <div class="modal-content">
+            <p>你的账户余额为0，哈哈哈！</p>
+            <button class="modal-button" onclick="closeModal()">确定</button>
+        </div>
+    </div>
+
+    <script>
+        const passwordInput = document.getElementById('passwordInput');
+        const modal = document.getElementById('myModal');
+
+        // 监听回车键
+        passwordInput.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                openModal();
+            }
+        });
+
+        // 打开模态框
+        function openModal() {
+            modal.style.display = 'flex';
+        }
+
+        // 关闭模态框
+        function closeModal() {
+            modal.style.display = 'none';
+        }
+
+        // 点击模态框外部也可以关闭
+        modal.addEventListener('click', function(event) {
+            if (event.target === modal) {
+                closeModal();
+            }
+        });
+    </script>
+
+    <p><i><b>真的灵
+        <p>
+            
+        </p>
+    </b></i>旺旺发财</p>
+<a href="https://www.bilibili.com/" target="_blank"> <img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.V6Lstu8wWMfZSx0hryzLVwHaHa?r=0&rs=1&pid=ImgDetMain&cb=idpwebpc2" alt="发财了"></a>
+</div>
+</body>
 </html>
